@@ -1,0 +1,20 @@
+.bookElement {
+    width: 100%;
+}
+
+.bookElement .books {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookElement .books .book {
+    width: 300px;
+    text-align: center;
+}
+
+.bookElement .books .book img {
+    margin-bottom: 50px;
+    height: 100px;
+    object-fit: cover;
+}
