@@ -6,13 +6,15 @@ import Update from "./pages/Update";
 
 function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Book />} />
-                <Route path="/add" element={<Add />} />
-                <Route path="/update" element={<Update />} />
-            </Routes>
-        </BrowserRouter>
+        <div className="App">
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Book />} />
+                    <Route path="/add" element={<Add />} />
+                    <Route path="/update/:id" element={<Update />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     );
 }
 
